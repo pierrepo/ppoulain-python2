@@ -1,0 +1,22 @@
+name: ppoulain-python2
+channels:
+  - conda-forge
+  - bioconda
+  - nodefaults
+dependencies:
+  - python=3.13
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pyarrow
+  - statsmodels
+  - biopython
+  - jupyterlab>=4.5,<5
+  - ipywidgets
+  # Linters and formaters
+  - ruff
+  - pip:
+    # watermark
+    - watermark
